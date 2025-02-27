@@ -9,7 +9,7 @@ const Footer = () => {
           {/* FounderBridge Section */}
           <div className="space-y-6">
             <Link to="/" className="block">
-              <h2 className="text-3xl font-bold text-primary-foreground">FounderBridge</h2>
+              <h2 className="text-3xl font-semibold text-primary-foreground">FoundersCorner</h2>
             </Link>
             <p className="text-gray-300 text-lg">
               Connecting innovative founders with exceptional talent to build the future of technology.
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p> {new Date().getFullYear()} FounderBridge. All rights reserved.</p>
+          <p> {new Date().getFullYear()} FoundersCorner. All rights reserved.</p>
         </div>
       </div>
     </footer>

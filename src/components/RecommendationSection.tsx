@@ -6,7 +6,7 @@ export const RecommendationSection = () => {
   return (
     <section className="grid md:grid-cols-2">
       {/* Job Seekers Section */}
-      <div className="p-12 bg-white flex flex-col items-center">
+      {/* <div className="p-12 bg-white flex flex-col items-center">
         <div className="max-w-xl">
           <div className="text-center mb-12">
             <h3 className="text-lg font-semibold mb-2">Got talent?</h3>
@@ -53,10 +53,10 @@ export const RecommendationSection = () => {
 
          
         </div>
-      </div>
+      </div> */}
 
       {/* Recruiters Section */}
-      <div className="p-12 bg-pink-50 flex flex-col items-center">
+      {/* <div className="p-12 bg-pink-50 flex flex-col items-center">
         <div className="max-w-xl">
           <div className="text-center mb-12">
             <h3 className="text-lg font-semibold mb-2">Need talent?</h3>
@@ -103,7 +103,7 @@ export const RecommendationSection = () => {
 
           
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

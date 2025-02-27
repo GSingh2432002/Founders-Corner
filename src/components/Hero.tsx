@@ -7,10 +7,10 @@ export const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
           Connect with Your Perfect Co-Founder
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-20 max-w-3xl mx-auto">
+        <p className="text-xl md:text-2xl text-gray-600 mb-20 max-w-3xl mx-auto pt-4">
           Whether you're a founder with a vision or a developer looking for an exciting opportunity,
           find your ideal match and build something amazing together.
         </p>
@@ -39,9 +39,9 @@ export const Hero = () => {
             I'm a Developer
           </Button>
         </div>
-        <div className="mt-32 text-sm text-gray-500">
+        {/* <div className="mt-32 text-sm text-gray-500">
           Join our community of founders and developers building the next generation of startups
-        </div>
+        </div> */}
       </div>
     </div>
   );

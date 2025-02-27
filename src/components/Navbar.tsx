@@ -40,9 +40,9 @@ export const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link 
             to="/" 
-            className="text-2xl font-extrabold text-primary tracking-tight hover:opacity-80 transition-opacity"
+            className="text-2xl font-semibold text-primary tracking-tight hover:opacity-80 transition-opacity"
           >
-            FounderBridge
+            FoundersCorner
           </Link>
           <div className="flex gap-4 items-center">
             {showSignOut ? (
